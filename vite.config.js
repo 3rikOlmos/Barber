@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/BarberShop/',
+  base: '/Barber/',
   build: {
     outDir: 'dist',
     sourcemap: false,
