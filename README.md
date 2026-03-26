@@ -8,20 +8,31 @@ Aplicación web Mobile-First para gestión de citas en una barbería/estética, 
 - Node.js 16+ instalado
 - npm o yarn
 
-### Instalación
+### Instalación y Ejecución
 
-1. **Instala las dependencias:**
+1. **Clona el repositorio:**
+```bash
+git clone https://github.com/3rikOlmos/BarberShop.git
+cd BarberShop
+```
+
+2. **Instala las dependencias:**
 ```bash
 npm install
 ```
 
-2. **Inicia el servidor de desarrollo:**
+3. **Inicia el servidor de desarrollo:**
 ```bash
 npm run dev
 ```
 
-3. **Abre en tu navegador:**
-La app se abrirá automáticamente en `http://localhost:3000`
+4. **La app se abrirá automáticamente en:**
+```
+http://localhost:3000
+```
+
+### ⚠️ Importante
+**NO abras `index.html` directamente** en el navegador. Siempre usa `npm run dev` para ejecutar el servidor de desarrollo de Vite.
 
 ### Build para Producción
 
@@ -29,6 +40,8 @@ La app se abrirá automáticamente en `http://localhost:3000`
 npm run build
 npm run preview
 ```
+
+El build generará una carpeta `dist/` con los archivos optimizados listos para producción.
 
 ## 📁 Estructura del Proyecto
 
